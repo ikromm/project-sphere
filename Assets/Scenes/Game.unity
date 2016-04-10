@@ -395,3 +395,27 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Speed: 3
+  JumpHeight: 1
+  JumpDistance: 2
+  JumpDuration: 0.5
+  JumpCurve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0.0000006960472
+      value: 0.0009864613
+      inSlope: 0
+      outSlope: 2.400461
+      tangentMode: 1
+    - time: 0.699114
+      value: 0.97645473
+      inSlope: -0.65647674
+      outSlope: -0.65647674
+      tangentMode: 0
+    - time: 1.0000025
+      value: -0.0000024778055
+      inSlope: -0.64851993
+      outSlope: -0.36938658
+      tangentMode: 1
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 0
