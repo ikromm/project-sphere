@@ -28,7 +28,7 @@ namespace Deltahacker
                 Position = transform.position,
                 Rotation = transform.rotation,
                 Prefab = ObstaclePrefab
-            }, WidthModifier.Random(), Speed);
+            }, WidthModifier.Random(), Speed).transform.SetParent(transform);
         }
     }
 

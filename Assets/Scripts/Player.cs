@@ -70,7 +70,10 @@ namespace Deltahacker
             transform.position = jumpVector;
 
             if (currentJumpTime >= JumpDuration)
+            {
+                transform.position = new Vector3(transform.position.x, transform.position.y, Mathf.FloorToInt(transform.position.z) + 0.5f);
                 jumping = false;
+            }
         }
     }
 }
